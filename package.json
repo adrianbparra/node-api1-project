@@ -5,18 +5,21 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
-    "gitignore": "^0.6.0"
+    "gitignore": "^0.6.0",
+    "short-id": "0.1.0-1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "server.js"
+    "server": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adrianbparra/node-api1-project.git"
   },
-  "keywords": [],
+  "keywords": ["nodemon", "server", "express", "shortid"],
   "author": "",
   "license": "ISC",
   "bugs": {
